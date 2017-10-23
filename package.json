@@ -1,0 +1,26 @@
+{
+  "name": "Clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakethomas/Clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakethomas/Clock/issues"
+  },
+  "homepage": "https://github.com/blakethomas/Clock#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "moment-timezone": "^0.5.13",
+    "mongodb": "^2.2.33"
+  }
+}
