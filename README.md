@@ -2,13 +2,13 @@
 A webite for people who want to know the time.
 
 # Uses
-HTML5
-CSS3
-Modern JavaScript (ES2015+)
-Moment
-Moment Timezone
-MongoDB
-Express
+HTML5,
+CSS3,
+Modern JavaScript (ES2015+),
+Moment,
+Moment Timezone,
+MongoDB,
+Express,
 Node.js
 
 # Screenshot
