@@ -18,4 +18,4 @@ Express,
 Node.js
 
 # Screenshot
-![screen shot 2017-10-24 at 10 24 57 am](https://user-images.githubusercontent.com/31449025/31959746-63d7995c-b8aa-11e7-966f-98b863f759f2.png)
+![screen shot 2017-10-24 at 1 04 24 pm](https://user-images.githubusercontent.com/31449025/31965332-ea270338-b8bb-11e7-942e-2990aaca64e0.png)
