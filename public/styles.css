@@ -25,10 +25,11 @@ body {
   transform: translate(-50%, -50%);
   color: lightgray;
   text-shadow: 0 0 3rem rgba(10, 175, 230, 1);
+  font-family: 'Share Tech Mono', monospace;
 }
 
 @media (min-width: 600px) {
   .value {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
