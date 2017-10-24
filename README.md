@@ -1,6 +1,12 @@
 # Clock
 A webite for people who want to know the time.
 
+# Usage
+$ mongod, 
+$ npm install, 
+$ node seed.js, 
+$ node index.js
+
 # Uses
 HTML5,
 CSS3,
