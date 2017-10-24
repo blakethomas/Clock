@@ -18,16 +18,20 @@ const timezones = () => {
   return fetch('http://localhost:3000/timezones').then(res => res.json())
 }
 
-const doWerk = () => {
-  timezones()
-    .then(data => times(data))
-    .then(data => data.map(render))
-    .then(data => {
-      document.querySelector('.times').innerHTML = ''
-      data.forEach(element => {
-        document.querySelector('.times').appendChild(element)
+
+const tick = () => {
+  const zones = timezones()
+  setInterval(() => {
+    zones
+      .then(times)
+      .then(data => data.map(render))
+      .then(data => {
+        document.querySelector('.times').innerHTML = ''
+        data.forEach(element => {
+          document.querySelector('.times').appendChild(element)
+        })
       })
-    })
+}, 16)
 }
 
-setInterval(doWerk, 16)
+tick()

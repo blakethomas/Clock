@@ -24,7 +24,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: lightgray;
-  text-shadow: 0 0 3rem rgba(10, 175, 230, 1);
+  text-shadow: 0 0 3rem rgba(0, 200, 250, 1);
   font-family: 'Share Tech Mono', monospace;
 }
 
