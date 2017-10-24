@@ -8,25 +8,25 @@ MongoClient.connect("mongodb://localhost/clock", (err, db) => {
   .toArray()
   .then(results => {
     !results.length
-        ? timezones
-      .insertMany(
-        [
-          "America/Toronto",
-          "Asia/Dubai",
-          "Europe/Belgrade",
-          "Asia/Tokyo",
-          "Pacific/Honolulu",
-          "America/Denver",
-          "Europe/Oslo",
-          "Australia/Sydney",
-          "Asia/Shanghai",
-        ].map(zone => ({
-          zone: zone
-        }))
-      )
-  .then(() => db.close())
+    ? timezones
+    .insertMany(
+      [
+        "America/Toronto",
+        "Asia/Dubai",
+        "Europe/Belgrade",
+        "Asia/Tokyo",
+        "Pacific/Honolulu",
+        "America/Denver",
+        "Europe/Oslo",
+        "Australia/Sydney",
+        "Asia/Shanghai",
+      ].map(zone => ({
+        zone: zone
+      }))
+    )
+    .then(() => db.close())
+    .catch(error => console.error(error))
+    : db.close()
+  })
   .catch(error => console.error(error))
-: db.close()
-})
-.catch(error => console.error(error))
 })
